@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/itemItemProductCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product Code" />
+
+    <TextView
+        android:id="@+id/itemItemProductName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Product Name" />
+
+    <TextView
+        android:id="@+id/itemItemQty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Total Qty" />
+
+    <TextView
+        android:id="@+id/itemItemPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Product Sold Qty" />
+
+</LinearLayout>

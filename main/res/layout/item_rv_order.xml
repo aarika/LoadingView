@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/itemOrderProductCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product Code" />
+
+    <TextView
+        android:id="@+id/itemOrderUserId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="USer Id" />
+
+    <TextView
+        android:id="@+id/itemOrderTotalQty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Total Qty" />
+
+    <TextView
+        android:id="@+id/itemOrderTotalPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Total PRice" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/itemOrderAccept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Accept"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/itemOrderReject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reject"/>
+
+
+
+</LinearLayout>
